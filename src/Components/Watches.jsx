@@ -23,7 +23,10 @@ const WatchShowcase = () => {
   return (
     <section className="text-center px-4 py-16 bg-white">
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        A great deal to love
+        A great deal to love Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Doloribus iste, dolor exercitationem est adipisci aperiam nesciunt
+        vero accusantium totam reiciendis odio cumque nostrum quod beatae, nulla
+        iure rerum et magni?
       </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mb-12">
         Easy ways to stay connected. Motivating fitness metrics. Innovative
