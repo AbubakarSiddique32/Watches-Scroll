@@ -36,6 +36,11 @@ const WatchShowcase = () => {
         excepturi tenetur dolores non iure vitae vel est nisi quibusdam
         voluptate, architecto, hic quam accusantium ipsam error quaerat.
       </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sed culpa
+        vitae modi dolorum sit odit laudantium quo incidunt, debitis enim
+        distinctio. Sed omnis aspernatur quis inventore est quo qui?
+      </p>
 
       <div className="flex justify-center items-center gap-6 flex-wrap">
         {watches.map((watch, index) => (
