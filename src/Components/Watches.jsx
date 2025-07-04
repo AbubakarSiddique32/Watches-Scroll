@@ -48,6 +48,12 @@ const WatchShowcase = () => {
       <div className="text-center mb-12">
         <h2 className="text-3xl font-semibold text-gray-900">
           A great deal to love
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+            illo nobis perferendis magnam eveniet tempora similique eum, soluta,
+            maxime ad accusantium provident vitae cupiditate sint tempore,
+            dolore ipsam nisi aliquid?
+          </p>
         </h2>
         <p className="mt-4 text-lg text-gray-500">
           {watchData[currentIndex].description}
