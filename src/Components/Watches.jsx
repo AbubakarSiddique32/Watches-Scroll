@@ -55,6 +55,7 @@ const WatchShowcase = () => {
             dolore ipsam nisi aliquid?
           </p>
         </h2>
+        <p>ok</p>
         <p className="mt-4 text-lg text-gray-500">
           {watchData[currentIndex].description}
         </p>
