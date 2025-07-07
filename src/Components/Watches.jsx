@@ -56,6 +56,12 @@ const WatchShowcase = () => {
           </p>
         </h2>
         <p>ok</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+          cupiditate reiciendis facilis dolorum! Veniam quam nulla nesciunt
+          soluta saepe architecto, incidunt facilis minus, dolorem officiis,
+          itaque dolore accusantium praesentium odio.
+        </p>
         <p className="mt-4 text-lg text-gray-500">
           {watchData[currentIndex].description}
         </p>
