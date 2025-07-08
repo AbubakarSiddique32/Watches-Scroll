@@ -1,11 +1,10 @@
-import WatchShowcase from "./Components/Watches";
-
+import Watch from "./Components/Watch";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <WatchShowcase />
+      <Watch />
     </>
   );
 }
