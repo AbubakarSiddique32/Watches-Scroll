@@ -1,51 +1,53 @@
 import React from "react";
-import white from "../Images/white.png";
-import gray from "../Images/gray.png";
-import orange from "../Images/orange.png";
-import yellow from "../Images/yellow.png";
+// import white from "../Images/white.png";
+// import gray from "../Images/gray.png";
+// import orange from "../Images/orange.png";
+// import yellow from "../Images/yellow.png";
 
-const watchData = [
-  {
-    id: 1,
-    imageUrl: orange,
-    alt: "Orange Strap Watch",
-    description: "Easy ways to stay connected. Motivating fitness metrics.",
-  },
-  {
-    id: 2,
-    imageUrl: yellow,
-    alt: "Yellow Strap Watch",
-    description: "Innovative health and safety features. Fresh strap colors.",
-  },
-  {
-    id: 3,
-    imageUrl: gray,
-    alt: "Gray Strap Watch",
-    description: "Apple Watch SE is packed with features at a feel-good price.",
-  },
-  {
-    id: 4,
-    imageUrl: white,
-    alt: "Orange Strap Watch",
-    description: "Easy ways to stay connected. Motivating fitness metrics.",
-  },
-];
+// const watchData = [
+//   {
+//     id: 1,
+//     imageUrl: orange,
+//     alt: "Orange Strap Watch",
+//     description: "Easy ways to stay connected. Motivating fitness metrics.",
+//   },
+//   {
+//     id: 2,
+//     imageUrl: yellow,
+//     alt: "Yellow Strap Watch",
+//     description: "Innovative health and safety features. Fresh strap colors.",
+//   },
+//   {
+//     id: 3,
+//     imageUrl: gray,
+//     alt: "Gray Strap Watch",
+//     description: "Apple Watch SE is packed with features at a feel-good price.",
+//   },
+//   {
+//     id: 4,
+//     imageUrl: white,
+//     alt: "Orange Strap Watch",
+//     description: "Easy ways to stay connected. Motivating fitness metrics.",
+//   },
+// ];
 
-const WatchShowcase = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+// const WatchShowcase = () => {
+//   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % watchData.length);
-  };
+//   const nextSlide = () => {
+//     setCurrentIndex((prevIndex) => (prevIndex + 1) % watchData.length);
+//   };
 
-  const prevSlide = () => {
-    setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + watchData.length) % watchData.length
-    );
-  };
+//   const prevSlide = () => {
+//     setCurrentIndex(
+//       (prevIndex) => (prevIndex - 1 + watchData.length) % watchData.length
+//     );
+//   };
   return (
     <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <div className="text-center mb-12">
+      <Navbar />
+      {/*  */}
+      {/* <div className="text-center mb-12">
         <h2 className="text-3xl font-semibold text-gray-900">
           A great deal to love
           <p>
@@ -60,7 +62,7 @@ const WatchShowcase = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
           cupiditate reiciendis facilis dolorum! Veniam quam nulla nesciunt
           soluta saepe architecto, incidunt facilis minus, dolorem officiis,
-          itaque dolore accusantium praesentium odio.
+          itaque dolore accusantium praesentium odio. q
         </p>
         <p className="mt-4 text-lg text-gray-500">
           {watchData[currentIndex].description}
@@ -90,7 +92,7 @@ const WatchShowcase = () => {
         >
           ❯
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
