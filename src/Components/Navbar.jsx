@@ -27,9 +27,15 @@ const Navbar = () => {
             return (
               <li key={index} className="flex no-underline bg-red ">
                 <a href="" className="flex items-center space-x-2">
-                  {detail.icon && <span className="">{detail.icon}</span>}
+                  {detail.icon && (
+                    <span className=" font-bold text-[25px]">
+                      {detail.icon}
+                    </span>
+                  )}
                   {/* Render icon if exists */}
-                  <span>{detail.text}</span>
+                  <span className=" text-[18px] hover:underline">
+                    {detail.text}
+                  </span>
                 </a>
               </li>
             );
